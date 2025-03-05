@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>色彩丰富的精美静态主页</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* 头部样式 */
+        header {
+            background: linear-gradient(45deg, #FF6B6B, #FFD93D);
+            color: white;
+            text-align: center;
+            padding: 3em 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            margin: 1em 0;
+            font-size: 1.4em;
+        }
+
+        /* 导航栏样式 */
+        nav {
+            background-color: #2B2E4A;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #53354A;
+        }
+
+        /* 主要内容区域样式 */
+        main {
+            padding: 2em;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 2em;
+            background-color: white;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #333;
+            margin-top: 0;
+            border-bottom: 2px solid #FF6B6B;
+            padding-bottom: 0.5em;
+        }
+
+        /* 图片样式 */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 按钮样式 */
+        .btn {
+            display: inline-block;
+            background-color: #FF6B6B;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #FF8E8E;
+        }
+
+        /* 页脚样式 */
+        footer {
+            background: linear-gradient(45deg, #2B2E4A, #53354A);
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <h1>探索色彩的世界</h1>
+        <p>在这里发现更多精彩内容</p>
+    </header>
+
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">特色服务</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main>
+        <section>
+            <h2>关于我们</h2>
+            <p>我们是一群热爱生活、追求创新的人，致力于打造一个充满色彩和活力的世界。我们拥有专业的团队和丰富的经验，为您提供最优质的服务。</p>
+            <img src="https://via.placeholder.com/1200x600?text=关于我们" alt="关于我们的图片">
+            <a href="#" class="btn">了解更多</a>
+        </section>
+
+        <section>
+            <h2>特色服务</h2>
+            <p>我们提供多样化的特色服务，涵盖了创意设计、数字营销、品牌策划等多个领域。无论您是个人还是企业，我们都能满足您的需求。</p>
+            <img src="https://via.placeholder.com/1200x600?text=特色服务" alt="特色服务的图片">
+            <a href="#" class="btn">查看详情</a>
+        </section>
+
+        <section>
+            <h2>联系我们</h2>
+            <p>如果您有任何疑问或合作意向，请随时与我们联系。您可以通过以下方式找到我们：</p>
+            <ul>
+                <li>电话：+86 123456789</li>
+                <li>邮箱：contact@example.com</li>
+            </ul>
+            <a href="#" class="btn">在线咨询</a>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2025 色彩丰富的精美静态主页版权所有</p>
+    </footer>
+</body>
+
+</html>
